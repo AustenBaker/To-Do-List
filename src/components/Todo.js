@@ -3,7 +3,7 @@ import { findDOMNode } from "react-dom";
 
 export default function Todo(props) {
 
-  const [newName, setName] = useState('');
+  const [newName, setNewName] = useState('');
 
   function handleChange(e) {
     setNewName(e.target.value);
